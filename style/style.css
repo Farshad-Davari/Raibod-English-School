@@ -1,0 +1,122 @@
+/* colors */
+:root {
+  --background: #FFF9CA;
+  --navbar: #FFB4B4;
+  --text: #333;
+  --pallete1: #FFDEB4;
+  --pallete2: #B2A4FF;
+  --box: #FFFFFF;
+}
+
+body {
+  background: var(--background);
+  text-rendering: optimizeSpeed;
+}
+
+/* Navbar */
+#my-navbar {
+  background: var(--navbar);
+}
+
+#my-navbar #my-brand {
+  color: var(--text);
+}
+
+#my-navbar #my-brand span {
+  border-bottom: 3px solid var(--background);
+}
+
+#my-navbar #my-brand:hover {
+  opacity: 0.7;
+}
+
+#my-navbar #my-login {
+  font-size: 18px;
+  color: var(--text);
+  width: 120px;
+}
+
+#my-navbar #my-login:hover {
+  background: var(--pallete1);
+}
+
+#my-menu a {
+  color: var(--text);
+  font-size: 18px;
+}
+
+#my-menu a:hover {
+  border-bottom: 2px solid var(--text);
+}
+
+#my-navbar #my-collapse-btn{
+  font-size: 30px;
+}
+
+#my-navbar #my-collapse-btn:hover {
+  color: var(--pallete2);
+}
+
+/* Slider */
+/* #my-slider {
+  max-height: 600px;
+  max-width: 100%;
+} */
+
+/* Introduction */
+#my-intro-box {
+  background: var(--box);
+  color: var(--text);
+  border-radius: 3px; 
+  border: 3px solid var(--box);
+}
+
+#my-intro-box #intro-text {
+  font-size: 18px;
+}
+
+#my-intro-box #intro-btn {
+  width: 200px;
+}
+
+/* Registration */
+#my-form {
+  background: var(--box);
+  border: 3px solid var(--box);
+  border-radius: 3px;
+}
+
+/* Social Media */
+.my-social-media a i {
+  font-size: 35px;
+  color: var(--text);
+  margin: 0 30px;
+}
+
+.my-social-media a i:hover {
+  color: var(--pallete2);
+}
+
+/* Social Media Text */
+.my-social-media-text p {
+  margin: 0 15px;
+}
+
+/* Courses Section */
+.my-course-box {
+  background: var(--box);
+  border: 3px solid var(--box); 
+  border-radius: 3px;
+}
+
+/* Offers Section */
+#my-offers-box {
+  background: var(--box);
+  border: 3px solid var(--box);
+  border-radius: 3px;
+}
+
+/* Footer */
+#my-footer {
+  background: var(--navbar);
+}
